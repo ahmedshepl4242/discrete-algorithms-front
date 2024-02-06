@@ -54,7 +54,7 @@ export default {
       // adding loading to the response
 
       const respone = await axios.post(
-        "http://localhost:8080/api/factorization",
+        "https://discrete-algorithms-back.onrender.com/api/factorization",
         null,
         {
           params: {
@@ -64,7 +64,7 @@ export default {
       );
 
       if (respone.status == 200) {
-        const respone2 = await axios.get("http://localhost:8080/api/getPrimes");
+        const respone2 = await axios.get("https://discrete-algorithms-back.onrender.com/api/getPrimes");
         this.primes = respone2.data;
         console.log(respone2.data);
       }

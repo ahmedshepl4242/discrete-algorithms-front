@@ -73,13 +73,13 @@ export default {
     async solve(equations) {
       // Check that the number of equations and variables are valid.
       
-      const res=await axios.post("http://localhost:8080/api/chine",equations,
+      const res=await axios.post("https://discrete-algorithms-back.onrender.com/api/chine",equations,
         
       );
       
       if(res.status==200){
        
-      const response=await axios.get("http://localhost:8080/api/getChines");
+      const response=await axios.get("https://discrete-algorithms-back.onrender.com/api/getChines");
       console.log(response.data);
       if(this.data==0){
         this.solution="There is not a solution"
