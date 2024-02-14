@@ -3,7 +3,7 @@ import home from "../views/home.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  base: "https://discrete-algorithms-front.vercel.app",
+  base: "https://discrete-algorithms-front-g5bcyc2zr-ahmedshepl4242s-projects.vercel.app",
   routes: [
    
     {
