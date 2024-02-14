@@ -10,24 +10,22 @@ import { RouterLink, RouterView } from "vue-router";
     <nav>
       <ul>
         <li>
-          <a href="/chine">Chines theorem</a>
+          <RouterLink to="/chine">Chines theorem</RouterLink>
         </li>
         <li>
-          <a href="/gcd">GCD</a>
+          <RouterLink to="/gcd">GCD</RouterLink>
         </li>
         <li>
-          <a href="/lcm">LCM</a>
+          <RouterLink to="/lcm">LCM</RouterLink>
         </li>
         <li>
-          <a href="/prime">Prime Factors</a>
+          <RouterLink to="/prime">Prime Factors</RouterLink>
         </li>
       </ul>
     </nav>
   </header>
 
-   <div class="router">
-      <RouterView />
-    </div>
+  <RouterView />
 </template>
 
 <style scoped>
