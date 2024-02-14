@@ -10,16 +10,16 @@ import { RouterLink, RouterView } from "vue-router";
     <nav>
       <ul>
         <li>
-          <RouterLink to="/chine">Chines theorem</RouterLink>
+          <a to="/chine">Chines theorem</a>
         </li>
         <li>
-          <RouterLink to="/gcd">GCD</RouterLink>
+          <a to="/gcd">GCD</a>
         </li>
         <li>
-          <RouterLink to="/lcm">LCM</RouterLink>
+          <a to="/lcm">LCM</a>
         </li>
         <li>
-          <RouterLink to="/prime">Prime Factors</RouterLink>
+          <a to="/prime">Prime Factors</a>
         </li>
       </ul>
     </nav>
